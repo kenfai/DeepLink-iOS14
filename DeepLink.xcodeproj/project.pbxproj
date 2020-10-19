@@ -11,6 +11,10 @@
 		522DFA52253DA46D0057A73B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DFA51253DA46D0057A73B /* ContentView.swift */; };
 		522DFA54253DA46E0057A73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522DFA53253DA46E0057A73B /* Assets.xcassets */; };
 		522DFA57253DA46E0057A73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522DFA56253DA46E0057A73B /* Preview Assets.xcassets */; };
+		522DFA60253DA6530057A73B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DFA5F253DA6530057A73B /* HomeView.swift */; };
+		522DFA63253DA6680057A73B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DFA62253DA6680057A73B /* SettingsView.swift */; };
+		522DFA68253DBAEF0057A73B /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DFA67253DBAEF0057A73B /* TodoItemView.swift */; };
+		522DFA6B253DC2900057A73B /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DFA6A253DC2900057A73B /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		522DFA53253DA46E0057A73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522DFA56253DA46E0057A73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522DFA58253DA46E0057A73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522DFA5F253DA6530057A73B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		522DFA62253DA6680057A73B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		522DFA67253DBAEF0057A73B /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		522DFA6A253DC2900057A73B /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				522DFA4F253DA46D0057A73B /* DeepLinkApp.swift */,
+				522DFA6A253DC2900057A73B /* TodoItem.swift */,
+				522DFA5F253DA6530057A73B /* HomeView.swift */,
+				522DFA67253DBAEF0057A73B /* TodoItemView.swift */,
+				522DFA62253DA6680057A73B /* SettingsView.swift */,
 				522DFA51253DA46D0057A73B /* ContentView.swift */,
 				522DFA53253DA46E0057A73B /* Assets.xcassets */,
 				522DFA58253DA46E0057A73B /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522DFA60253DA6530057A73B /* HomeView.swift in Sources */,
+				522DFA63253DA6680057A73B /* SettingsView.swift in Sources */,
 				522DFA52253DA46D0057A73B /* ContentView.swift in Sources */,
 				522DFA50253DA46D0057A73B /* DeepLinkApp.swift in Sources */,
+				522DFA6B253DC2900057A73B /* TodoItem.swift in Sources */,
+				522DFA68253DBAEF0057A73B /* TodoItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
